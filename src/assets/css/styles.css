@@ -1,5 +1,9 @@
 html {
     background: #ececec;
+    /* font-family: 'Avenir', Helvetica, Arial, 'system-ui', sans-serif; */
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    /* color: rgb(rgb(250, 250, 240)); */
     width: 100%;
     height: 100%;
     overflow-x: scroll;
@@ -21,7 +25,14 @@ header {
     display: flex;
 }
 
-
+/* .addlist {
+    margin: 0 10px auto;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 320px;
+    width: 320px;
+} */
 
 /*=========================
             List
@@ -252,4 +263,19 @@ header {
     opacity: 1;
 }
 
-/**/
+/*========================
+        Media
+=========================*/
+
+@media screen and (min-width:520px) { 
+    /*　画面サイズが480pxからはここを読み込む　*/
+
+}
+@media screen and (min-width:960px) and ( max-width:1024px) {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+
+}
+@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+
+}
