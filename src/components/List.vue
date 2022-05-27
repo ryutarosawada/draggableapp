@@ -4,7 +4,6 @@
           <div class="list">
             <div class="listheader">
               <h2 class="list-title">{{ title }}</h2>
-              <!-- <p class="list-counter">{{ totalCardInList }}</p> -->
               <div class="deletelist" @click="removeList">×</div>
             </div>
             <draggable group="cards"

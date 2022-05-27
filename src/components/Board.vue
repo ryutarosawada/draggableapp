@@ -3,8 +3,6 @@
     <header>
     </header>
     <main>
-      <!-- <p class="info-line">All: {{ totalCardCount }} Cards</p> -->
-      
       <draggable :list="lists"
                   class="list-index"
                   @end="movingList"

@@ -1,9 +1,5 @@
 <template>
   <div class="card" v-longclick="() => removeCardFromList()">
-    <!-- <button v-longclick="() => removeCardFromList()">bb</button> -->
-    <!-- <button class="close-button" @click="removeCardFromList">
-      ✖️
-    </button> -->
     <div class="body">
       {{ body }}
     </div>
